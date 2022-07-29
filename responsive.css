@@ -1,0 +1,140 @@
+@media (max-width: 906px) {
+    nav {
+        padding: 2rem 3rem 0 3rem;
+    }
+}
+
+@media (max-width: 752px) {
+    nav .menu {
+        position: absolute;
+        top: 0;
+        right: -200px;
+        background-color: coral;
+        width: 200px;
+        height: 100vh;
+        z-index: 2;
+        transition: 0.4s ease-in-out;
+    }
+
+    nav .menu ul {
+        padding: 40px;
+    }
+
+    nav .menu ul li {
+        display: block;
+        line-height: 2.3rem;
+    }
+
+    nav .fa-solid {
+        display: block;
+        margin: 20px;
+        color: #fff;
+        font-size: 1.6rem;
+    }
+
+    .logo img {
+        width: 150px;
+    }
+}
+
+@media (max-width: 400px) {
+    nav {
+        padding: 2rem 1rem 0rem 1rem;
+    }
+
+    .logo img {
+        width: 100px;
+    }
+}
+
+@media (max-width: 682px) {
+    .section-1 {
+        height: auto;
+        padding: 1rem 0rem 3rem 0rem;
+    }
+    .home-content {
+        margin-top: 3rem;
+        flex-direction: column;
+        row-gap: 3rem;
+    }
+
+    .home-content .left-side,
+    .home-content .right-side {
+        width: 100%;
+    }
+}
+
+@media (max-width: 482px) {
+    .home-content {
+        padding: 0rem 1.5rem;
+    }
+    nav {
+        padding-top: 0rem;
+    }
+}
+
+/* ================= SECTION-2 ============== */
+
+@media (max-width: 900px) {
+    .section-2 {
+        padding: 3rem 1.5rem;
+    }
+}
+
+@media (max-width: 680px) {
+    .section-2 .main-div {
+        /* justify-content: center; */
+        align-items: center;
+        flex-direction: column;
+        row-gap: 3rem;
+    }
+
+    .section-2 .main-div .left-side,
+    .section-2 .main-div .right-side {
+        width: 95%;
+        text-align: center;
+    }
+}
+
+/* ============== SECTION-3 ============== */
+@media (max-width: 500px) {
+    .section-3 .main-div .box h1 {
+        line-height: 1rem;
+    }
+}
+
+/* ========SECTION-4 ============ */
+@media (max-width: 743px) {
+    .section-4 .main-div {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 435px) {
+    .section-4 {
+        padding: 2rem 1rem;
+    }
+
+    .section-4 h1 {
+        font-size: 1.2rem;
+    }
+    .section-4 .main-div .box {
+        width: 100%;
+    }
+}
+
+/* ====== SECTION-5====== */
+
+@media (max-width: 780px) {
+    .section-5 .slider {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .section-5 {
+        padding: 3rem 0.5rem;
+    }
+}
